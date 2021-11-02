@@ -1,14 +1,12 @@
-﻿#include <iostream>                        
+#include <iostream>                        
 using namespace std;
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    float f, r;
-    int g;
-    f = 1 / 7.481;
-    cout << "Введите число галлонов: ";
-    cin >> g;
-    r = g * f;
-    cout << "Эквивалентный объем в кубических футах: " << r;
+    float c, f;
+    cout << "Градусы по Фаренгейту " << endl;
+    cin >> f;
+    c = 5 * (f - 32) / 9;
+    cout << "Градусы по Цельсию " << c;
     return 0;
 }
